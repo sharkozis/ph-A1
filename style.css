@@ -10,7 +10,7 @@ body{
     font-family: sans-serif;
 }
 main{
-    padding: 40px 80px;
+    padding: 40px 80px 0 80px;
 }
 .banner{
     background-image: url('./resources/Banner\ Image.png');
@@ -121,6 +121,7 @@ margin-bottom: 15px;
     margin-top: 50px;
     border-radius: 8px;
     color: white;
+    cursor: pointer;
 }
 /*============== timezone section end here ===================*/
 
@@ -296,4 +297,34 @@ margin-bottom: 15px;
     color: white;
     bottom: 0;
     cursor: pointer;
+}
+/*============== subscribe section end here ===================*/
+
+footer{
+    background-color: #070211;
+    color: white;
+    padding: 20px 100px;
+    margin-bottom: 0;
+}
+
+.footer-address,.footer-rights{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-address>p{
+font-size: 22px;
+}
+.footer-details>div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    text-align: center;
+    margin: 50px 0;
+}
+.footer-icon>img{
+    margin-left: 20px;
 }
