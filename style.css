@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 body{
-    /* font-family: "Merriweather",sans-serif; */
     font-family: sans-serif;
 }
 main{
@@ -317,7 +316,6 @@ font-size: 22px;
 }
 .footer-details>div{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-bottom: 20px;
 }
@@ -328,3 +326,4 @@ font-size: 22px;
 .footer-icon>img{
     margin-left: 20px;
 }
+/*============== footer section end here ===================*/
