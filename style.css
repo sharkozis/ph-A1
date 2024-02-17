@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: "Merriweather",sans-serif; */
+    font-family: sans-serif;
+}
+main{
+    padding: 40px 80px;
+}
+.banner{
+    background-image: url('./resources/Banner\ Image.png');
+    display: flex;
+    justify-content: center;
+    font-family: "Merriweather",sans-serif;
+    line-height: 90px;  
+}
+.banner-section{
+    margin-top: 90px;
+}
+.banner-section> h4{
+    font-size: 22px;
+    text-align: center;
+}
+.banner-section> h1{
+    font-size: 5.5rem;
+    width: 700px;
+    text-align: center;
+}
+
+/*============== banner section end here ===================*/
+.holiday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.holiday>h2,.holiday>p{
+    color: #FF0000;
+}
+.holiday>h2{
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+.holiday>p{
+font-size: 20px;
+margin-bottom: 15px;
+}
+.holiday>h4{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+/*============== holiday section end here ===================*/
+
+
+/* ==================combine class =============*/
+.holiday,.midnight,.offer,.sale-img-container,.portfolio,.subscribe{
+    margin: 100px 0;
+}
+.banner,.midnight{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    height: 800px;
+    color: white;
+    border-radius: 15px;
+}
+/* ================= combine class ============*/
+
+
+
+.midnight{
+    background-image: url('./resources/Vectorrr.png');
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.midnight-info{
+    width: 50%;
+}
+.midnight-info>h1{
+    font-family: "Merriweather",sans-serif;
+    font-size: 88px;
+}
+.midnight-info>p{
+    line-height: 30px;
+    margin: 30px 0;
+    font-size: 18px;
+}
+.midnight-info>a{
+    font-size: 1.2rem;
+    margin-left: 30px;
+}
+/*============== midnight section end here ===================*/
+
+.timezone{
+    background-image: linear-gradient( #fed0d0 2%,#fff);
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.timezone-contain{
+    margin-top: 80px;
+    line-height: 60px;
+}
+.timezone-contain>h2{
+    font-size: 32px;
+}
+.timezone-contain>h2>span{
+    color: red;
+}
+.timezone-contain>button{
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 15px 22px;
+    margin-top: 50px;
+    border-radius: 8px;
+    color: white;
+}
+/*============== timezone section end here ===================*/
+
+.offer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content:center;
+    gap: 40px;
+}
+.offer-container>div{
+    padding: 30px;
+}
+.offer-container_title>h2{
+    color: red;
+    margin-bottom: 20px;
+}
+.offer-container_title>h1{
+    font-family: "Merriweather",sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.offer-container_title>p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #070211;
+}
+.offer-container_img{
+    text-align: center;
+}
+.offer-container_img>img{
+    border: 30px solid transparent;
+    border-radius: 50%;
+    outline: 10px solid red;
+}
+.offer-container_year>h2{
+    font-size: 2.8rem;
+    margin: 30px 0 20px 0;
+    color: red;
+}
+.offer-container_year>p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/*============== offer section end here ===================*/
+.sale{
+    position: relative;
+    height: 105vh;
+}
+.sale>h4,.sale>h1,.sale>p{
+    text-align: center;
+}
+.sale>h4{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 9px;
+}
+.sale>h1{
+    font-family: "Merriweather",sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.sale>h1>span{
+    color: red;
+}
+.sale>p{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.sale-img-container>img{
+    position: absolute;
+}
+.img-1{
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+    width: 40%;
+}
+.img-2,.img-3{
+    right: 0;
+    z-index: 1;
+}
+.img-3{
+    right: 18%;
+    bottom: 37%;
+}
+.img-4{
+    bottom: 0;
+    width: 100%;
+}
+/*============== sale section end here ===================*/
+
+.portfolio>h4{
+    color: red;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.portfolio>h1{
+    font-family: "Merriweather",sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.portfolio>p{
+    font-size: 20px;
+    width: 500px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.portfolio-img-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.portfolio-img-container>img{
+    filter: brightness(.5);
+    transition: .5s ease-in-out;
+}
+.portfolio-img-container>img:hover{
+    filter: brightness(1);
+    transition: .3s ease-in-out;
+    transform: scale(1.02);
+}
+/*============== portfolio section end here ===================*/
+
+
+.subscribe{
+    background-color: #fee2e2;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+.subscribe>img{
+    margin: 50px 0;
+}
+.subscribe>h1{
+    font-family: "Merriweather",sans-serif; 
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.subscribe>p{
+    font-size: 22px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.subscribe-btn{
+    position: relative;
+    width: 25%;
+    margin: 50px auto;
+}
+.subscribe-btn>input{
+    padding: 25px 35px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    /* margin-top: 20px; */
+}
+.subscribe-btn::after{
+    content: "Subscribe";
+    background-color: red;
+    position: absolute;
+    padding: 24px 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    right: 0;
+    color: white;
+    bottom: 0;
+    cursor: pointer;
+}
